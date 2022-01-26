@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>336</width>
+    <height>226</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>RomanArabicDigits</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="FromEdit">
+    <property name="geometry">
+     <rect>
+      <x>82</x>
+      <y>100</y>
+      <width>142</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="FromLabel">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>100</y>
+      <width>67</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>From :</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="TransformButton">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>100</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Transform</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>311</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Transformation</string>
+    </property>
+    <widget class="QRadioButton" name="RoToAr">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>30</y>
+       <width>112</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>RomeToArab</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="ArToRo">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>112</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ArabToRome</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="ToLabel">
+    <property name="geometry">
+     <rect>
+      <x>7</x>
+      <y>150</y>
+      <width>67</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>To :</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="ToEdit">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>150</y>
+      <width>142</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>336</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
